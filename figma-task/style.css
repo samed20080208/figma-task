@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Heebo";
+    src: url(./assets/fonts/Heebo-VariableFont_wght.ttf);
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+body {
+    color: #21243D;
+    font-family: "Heebo", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 27px 60px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    color: inherit;
+}
+
+main {
+    margin-top: 160px;
+}
+
+main section.person-info {
+    width: 858px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+main section.person-info div h1 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+main section.person-info div p {
+    font-size: 16px;
+    font-weight: normal;
+    width: 497px;
+    margin-top: 40px;
+}
+
+main section.person-info div button {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-top: 44px;
+    background-color: #FF6464;
+    padding: 12px 20px;
+}
+
+main section.recent-posts {
+    width: 100%;
+    background-color: #EDF7FA;
+    margin-top: 71px;
+}
+
+main section.recent-posts .recent-posts-container {
+    margin: auto;
+    width: 858px;
+    padding: 30px 0px;
+}
+
+main section.recent-posts .recent-posts-container .posts-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section.recent-posts .recent-posts-container .posts-navigation h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+main section.recent-posts .recent-posts-container .posts-navigation a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #00A8CC;
+}
+
+main section.recent-posts .recent-posts-container #work-list {
+    display: flex;
+    margin-top: 11px;
+    gap: 17px;
+}
+
+main section.recent-posts .recent-posts-container #work-list li {
+    background-color: white;
+    width: 50%;
+    padding: 34px 25px 24px 25px;
+}
+
+main section.recent-posts .recent-posts-container #work-list li h2 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+main section.recent-posts .recent-posts-container #work-list li .date {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 17px;
+    line-height: 26px;
+}
+
+main section.recent-posts .recent-posts-container #work-list li .work-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 11px;
+    line-height: 24px;
+}
+
+main section.featured-works {
+    margin: auto;
+    width: 858px;
+    margin-top: 15px;
+}
+
+main section.featured-works h2 {
+    line-height: 60px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+main section.featured-works #featured-works-list {
+    margin-top: 7px;
+}
+
+main section.featured-works #featured-works-list li {
+    margin-top: 30px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 30px;
+    display: flex;
+    gap: 18px;
+}
+
+main section.featured-works #featured-works-list li:first-child {
+    margin-top: 0px;
+}
+
+main section.featured-works #featured-works-list li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main section.featured-works #featured-works-list li div h2 {
+    line-height: 44px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+main section.featured-works #featured-works-list li div .date-area .date {
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    background-color: #142850;
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+
+main section.featured-works #featured-works-list li div .date-area .area {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8695A4;
+    margin-left: 26px;
+    opacity: 0.7;
+}
+
+footer {
+    padding: 51px 0px;
+}
+
+footer ul {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    gap: 35px;
+}
+
+footer ul li a svg path {
+    transition: 0.3s;
+}
+
+footer p {
+    margin: auto;
+    margin-top: 25px;
+    width: fit-content;
+}
